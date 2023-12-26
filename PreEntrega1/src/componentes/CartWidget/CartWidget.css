@@ -1,0 +1,10 @@
+i {
+    display: inline-block;
+    cursor: pointer;
+    align-items: top;
+   }
+ 
+i:hover {
+   color: rgb(103, 195, 222);
+ }
+ 

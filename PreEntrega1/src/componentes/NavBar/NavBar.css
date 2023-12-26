@@ -1,0 +1,40 @@
+nav {
+    border-bottom: 1px solid rgb(103, 195, 222);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-left: 1rem;
+    padding: 2px;
+  }
+  
+  .title {
+    display: flex;
+    color: rgb(103, 195, 222);
+    margin: auto;
+  }
+  
+  ul {
+    margin: auto;
+    margin-right: 1rem;
+  }
+  
+  li {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 1rem;
+    /* align-items: center; */
+  }
+
+  .inline{
+    display: inline-block;
+  }
+  
+  ul li:hover {
+    text-decoration: underline; /* Subrayar */
+    text-decoration-color: rgb(103, 195, 222); /* Color de la subrayado */
+    text-decoration-thickness: 3px; /* Grosor de la subrayado */
+  }
+  
